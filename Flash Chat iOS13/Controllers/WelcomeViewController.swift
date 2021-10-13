@@ -15,7 +15,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.titleLabel.text = "⚡️FlashChat"
+        self.titleLabel.text = K.appName
     }
     
 
