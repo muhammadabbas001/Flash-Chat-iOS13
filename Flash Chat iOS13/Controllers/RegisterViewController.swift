@@ -20,7 +20,7 @@ class RegisterViewController: UIViewController {
                 if let e = error{
                     print(e.localizedDescription)
                 }else{
-                    self.performSegue(withIdentifier: K.registerSeque, sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
         }
